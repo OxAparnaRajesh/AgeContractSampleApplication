@@ -1,8 +1,8 @@
 const Migrations = artifacts.require("Migrations");
-const AgeContract =artifacts.require("AgeContract");
+const UserDetails =artifacts.require("UserDetails");
 
 module.exports = function(deployer) {
   deployer.deploy(Migrations);
-  deployer.deploy(AgeContract);
+  deployer.deploy(UserDetails);
   
 };
